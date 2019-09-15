@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The F2E Week 9</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <ul>
+                <li>
+                    <a href="#" class="note_li">
+                        <img src="images/note.svg" alt="">
+                        筆記
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="hash_li">
+                        <img src="images/hashtag.svg" alt="">
+                        標籤
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="star_li">
+                        <img src="images/star.svg" alt="">
+                        星號
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="del_li">
+                        <img src="images/delete.svg" alt="">
+                        刪除
+                    </a>
+                </li>
+            </ul>
+
+            <div class="change_mode">
+                <div class="day">
+                    <img src="images/daymode.svg" alt="">
+                </div>
+                <div class="night">
+                    <img src="images/nightmode.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="search">
+                <input type="text">
+                <img src="images/search.svg" alt="">
+            </div>
+            <div class="change_view">
+                <a href="#" class="list_view">
+                    <img src="images/list_selected.svg" alt="">
+                </a>
+                <a href="#" class="grid_view">
+                    <img src="images/grid_unselected.svg" alt="">
+                </a>
+            </div>
+            <div class="note_list">
+                <ul class="note_list_ul ">
+                    <li class="note_reading note_list_ul_li">
+                        <a href="#" class="note_list_li_a">
+                            <div class="color_circle circle_pink"></div>
+                            演講筆記1
+                        </a>
+                        <div class="do_more">
+                            <img src="images/star-1.svg" alt="" class="add_fav">
+                            <img src="images/do_more.svg" alt="" class="do_more_pic">
+                        </div>
+                    </li>
+                    <li class="note_list_ul_li">
+                        <a href="#" class="note_list_li_a">
+                            <div class="color_circle circle_blue"></div>
+                            演講筆記2
+                        </a>
+                        <div class="do_more">
+                            <img src="images/star-1.svg" alt="" class="add_fav">
+                            <img src="images/do_more.svg" alt="" class="do_more_pic">
+                        </div>
+                    </li>
+                    <li class="note_list_ul_li">
+                        <a href="#" class="note_list_li_a">
+                            <div class="color_circle circle_green"></div>
+                            演講筆記3
+                        </a>
+                        <div class="do_more">
+                            <img src="images/star-1.svg" alt="" class="add_fav">
+                            <img src="images/do_more.svg" alt="" class="do_more_pic">
+                        </div>
+                    </li>
+                    <li class="note_list_ul_li">
+                        <a href="#" class="note_list_li_a">
+                            <div class="color_circle circle_pink"></div>
+                            演講筆記4
+                        </a>
+                        <div class="do_more">
+                            <img src="images/star-1.svg" alt="" class="add_fav">
+                            <img src="images/do_more.svg" alt="" class="do_more_pic">
+                        </div>
+                    </li>
+                    <li class="note_list_ul_li">
+                        <a href="#" class="note_list_li_a">
+                            <div class="color_circle circle_brown"></div>
+                            演講筆記5
+                        </a>
+                        <div class="do_more">
+                            <img src="images/star-1.svg" alt="" class="add_fav">
+                            <img src="images/do_more.svg" alt="" class="do_more_pic">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="title_area">
+                <input type="text" id="note_title" placeholder="請輸入標題">
+                <div class="title_do_more">
+                    <img src="images/star-1.svg" alt="">
+                    <img src="images/do_more.svg" alt="">
+                </div>
+                
+            </div>
+            <hr>
+            <div class="note_content">
+                <textarea name="" id="note_area" cols="30" rows="50" placeholder="請輸入內容"></textarea>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+
+</html>
